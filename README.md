@@ -29,6 +29,35 @@ class Animal(Enum):
     dog = 4
 ```
 
+<p dir = "rtl"> هم‌چنین شمارنده را می‌توان به صورت دستی با استفاده از تعریف یک کلاس پیاده‌سازی کرد:</p>
+
+```markdown
+class Animal:
+    DOG = 1
+    CAT = 2
+
+x = Animal.DOG 
+```
+<p dir = "rtl"> یک روش دیگر برای پیاده‌سازی شمارنده در کد زیر معرفی شده‌است:</p>
+
+```markdown
+class Enum(set):
+    def __getattr__(self, name):
+        if name in self:
+            return name
+        raise AttributeError
+```
+<p dir = "rtl"> این روش در مقایسه با روش‌های معرفی شده در قبل پیچیده‌تر و کندتر است اما فوایدی دارد از جمله اینکه اگر کاربر شمارنده‌ای مانند زیر تعریف کند</p>
+```markdown
+Animals = Enum(["DOG", "CAT", "HORSE"])
+```
+<p dir = "rtl">و سپس کدهای زیر را اجرا کنیم داریم:</p>
+```markdown
+print(Animals.DOG) #print DOG
+print(Animals.SNAKE) #AtrributeError
+```
+
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
