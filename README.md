@@ -1,13 +1,10 @@
 
 <h1 dir="rtl">شمارنده در پایتون</h1>
 <p dir = "rtl">   شمارنده یک قابلیت در پایتون است که از نسخه‌ی ۳.۴ به بعد به آن اضافه شده است. شمارنده فواید بسیار زیادی دارد و در مواقعی که میخواهیم کلاسی با تعداد محدودی شی از آن بسازیم از شمارنده استفاده میکنیم. بدین‌ترتیب مقادیر شمارنده اشتباها با مقادیر عدد صحیح مقایسه نشده و میتوان برای نحوه‌ی رفتار آن‌ها را تعیین کرد، برای مثال نحوه‌ی چاپ شدن آن‌ها و یا اضافه کردن تعدادی متد به شمارنده‌ها. علاوه بر پیاده‌سازی داخلی شمارنده در پایتون، روش‌های متعددی هم برای پیاده‌سازی دستی توسط خود شخص باتوجه به کاربردهای او وجود دارد. </p>
-You can use the [editor on GitHub](https://github.com/helizi/webResearch/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
+<p dir = "rtl">در تکه کدهای زیر یک پیاده‌سازی مرسوم و ناسازگار را مشاهده میکنید. برای استفاده از این پیاده‌سازی ابتدا باید کتاب‌خانه‌ی enum34 را با استفاده از دستور زیر نصب کنید </p>
+To use enum34, do $ pip install enum34
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
@@ -23,7 +20,7 @@ Syntax highlighted code block
 2. List
 
 **Bold** and _Italic_ and `Code` text
-
+You can use the [editor on GitHub](https://github.com/helizi/webResearch/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 [Link](url) and ![Image](src)
 ```
 
