@@ -40,6 +40,7 @@ x = Animal.DOG
 ```
 <p dir = "rtl"> یک روش دیگر برای پیاده‌سازی شمارنده در کد زیر معرفی شده‌است:</p>
 
+
 ```markdown
 class Enum(set):
     def __getattr__(self, name):
