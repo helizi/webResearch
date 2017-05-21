@@ -9,8 +9,8 @@
 
 
 ```markdown
-from enum import Enum    _for enum34, or the stdlib version_
-_from aenum import Enum   for the aenum version_
+from enum import Enum    <p color = "gray">#for enum34, or the stdlib version</p>
+<p color = "gray">#from aenum import Enum   #for the aenum version <p>
 
 Animal = Enum('Animal', 'ant bee cat dog')
 Animal.ant  # returns <Animal.ant: 1>
