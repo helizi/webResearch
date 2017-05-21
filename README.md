@@ -15,19 +15,7 @@ Animal.ant  # returns <Animal.ant: 1>
 Animal['ant']  # returns <Animal.ant: 1> (string lookup)
 Animal.ant.name  # returns 'ant' (inverse lookup)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-You can use the [editor on GitHub](https://github.com/helizi/webResearch/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-[Link](url) and ![Image](src)
 ```
 <p dir= "rtl">یا به طور مشابه</p>
 
@@ -49,3 +37,17 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+You can use the [editor on GitHub](https://github.com/helizi/webResearch/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[Link](url) and ![Image](src)
