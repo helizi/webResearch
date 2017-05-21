@@ -48,10 +48,12 @@ class Enum(set):
         raise AttributeError
 ```
 <p dir = "rtl"> این روش در مقایسه با روش‌های معرفی شده در قبل پیچیده‌تر و کندتر است اما فوایدی دارد از جمله اینکه اگر کاربر شمارنده‌ای مانند زیر تعریف کند</p>
+
 ```markdown
 Animals = Enum(["DOG", "CAT", "HORSE"])
 ```
 <p dir = "rtl">و سپس کدهای زیر را اجرا کنیم داریم:</p>
+
 ```markdown
 print(Animals.DOG) #print DOG
 print(Animals.SNAKE) #AtrributeError
