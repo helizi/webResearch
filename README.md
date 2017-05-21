@@ -3,15 +3,16 @@
 <p dir = "rtl">   شمارنده یک قابلیت در پایتون است که از نسخه‌ی ۳.۴ به بعد به آن اضافه شده است. شمارنده فواید بسیار زیادی دارد و در مواقعی که میخواهیم کلاسی با تعداد محدودی شی از آن بسازیم از شمارنده استفاده میکنیم. بدین‌ترتیب مقادیر شمارنده اشتباها با مقادیر عدد صحیح مقایسه نشده و میتوان برای نحوه‌ی رفتار آن‌ها را تعیین کرد، برای مثال نحوه‌ی چاپ شدن آن‌ها و یا اضافه کردن تعدادی متد به شمارنده‌ها. علاوه بر پیاده‌سازی داخلی شمارنده در پایتون، روش‌های متعددی هم برای پیاده‌سازی دستی توسط خود شخص باتوجه به کاربردهای او وجود دارد. </p>
 <p dir = "rtl">در تکه کدهای زیر یک پیاده‌سازی مرسوم و ناسازگار را مشاهده میکنید. برای استفاده از این پیاده‌سازی ابتدا باید کتاب‌خانه‌ی  enum34   یا aenum را با استفاده از دستورات زیر نصب کنید </p>
 
-- To use enum34: $ pip install enum34
-- To use aenum: $ pip install aenum
+- **To use enum34: $ pip install enum34**
+- **To use aenum: $ pip install aenum**
 
 
 
 ```markdown
-from enum import Enum     # for enum34, or the stdlib version
-Animal = Enum('Animal', 'ant bee cat dog')
+from enum import Enum    _for enum34, or the stdlib version_
+_from aenum import Enum   for the aenum version_
 
+Animal = Enum('Animal', 'ant bee cat dog')
 Animal.ant  # returns <Animal.ant: 1>
 Animal['ant']  # returns <Animal.ant: 1> (string lookup)
 Animal.ant.name  # returns 'ant' (inverse lookup)
