@@ -21,7 +21,6 @@ Animal.ant.name  #returns 'ant' (inverse lookup)
 <p dir= "rtl">یا به طور مشابه:</p>
 
 ```markdown
-
 class Animal(Enum):
     ant = 1
     bee = 2
