@@ -30,7 +30,9 @@ You can use the [editor on GitHub](https://github.com/helizi/webResearch/edit/ma
 [Link](url) and ![Image](src)
 ```
 <p dir= "rtl">یا به طور مشابه</p>
+
 ```markdown
+
 class Animal(Enum):
     ant = 1
     bee = 2
