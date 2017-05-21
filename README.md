@@ -1,7 +1,7 @@
 <style type="text/css">
 @font-face {
     font-family: font;
-    src: url(https://fontlibrary.org/face/iranian-sans);
+    src: url('BNazanin.ttf')
 }
 p {
     font-family: font;
