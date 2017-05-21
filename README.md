@@ -1,5 +1,6 @@
 
 <h1 dir="rtl">شمارنده در پایتون</h1>
+<p dir = "rtl">   شمارنده یک قابلیت در پایتون است که از نسخه‌ی ۳.۴ به بعد به آن اضافه شده است. شمارنده فواید بسیار زیادی دارد و در مواقعی که میخواهیم کلاسی با تعداد محدودی آبجکت از آن بسازیم از شمارنده استفاده میکنیم. بدین ترتیب مقادیر شمارنده اشتباها با مقادیر عدد صحیح مقایسه نشده و میتوان برای نحوه‌ی رفتار آن‌ها را تعیین کرد، برای مثال نحوه‌ی چاپ شدن آن‌ها و یا اضافه کردن تعدادی متد به شمارنده‌ها. پایتون یک پیاده‌سازی داخلی برای شمارنده ندارد، اما میتوان با روش‌÷ای متعددی یک شبه شمارنده برای آن ایجاد کرد. </p>
 You can use the [editor on GitHub](https://github.com/helizi/webResearch/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
