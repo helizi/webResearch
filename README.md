@@ -1,10 +1,10 @@
 <style type="text/css">
 @font-face {
-    font-family: myFirstFont;
+    font-family: font;
     src: url(https://fontlibrary.org/face/iranian-sans);
 }
 p {
-    font-family: myFirstFont;
+    font-family: font;
 }
 </style>
 <h1 dir="rtl">شمارنده در پایتون</h1>
